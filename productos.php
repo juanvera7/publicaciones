@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Publicaciones</title>
+        <title>Producto</title>
     </head>
     <body>
         <div>
