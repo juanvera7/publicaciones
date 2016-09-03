@@ -144,6 +144,7 @@
                           $("#buscar").load("buscar.html");
                           $("#buscar").fadeIn("slow");
                           $("#panelPrograma").fadeOut("slow");
+<<<<<<< HEAD
                           
                           $("#botonAgregarUsuario").prop("disabled",true);
                           $("#botonModificarUsuario").prop("disabled",false);
@@ -179,6 +180,37 @@
                           $("#bottonCancelar").prop("disabled",true);
                           $("#id").prop("disabled",true);
                           limpiarCampos();
+=======
+                      });
+                      
+                     $("#botonAgregarUsuario").on("click",function(){
+                         agregarUsuario();
+                           });
+                     
+                     $("#botonModificarUsuario").on("click",function(){
+                         modificarUsuario();
+                           });
+                       $("#bottonEliminar").on("click",function(){
+                         eliminarUsuario();
+                           });
+                      
+                        $("#confirmarEliminar").modal("hide");
+                        
+                        $("#botonSalir").on("click",function(){
+                      location.href="../../../menu.html";
+                  });
+                         
+                         
+                        
+                        
+                      
+                          $("#botonBuscarUsuario").on("click",function(){
+                          $("#botonAgregarUsuario").prop("click",false);
+                          $("#botonModificarUsuario").prop("click",true);
+                          $("#bottonEliminar").prop("click",true);
+                          $("#botonBuscarUsuario").prop("click",true);
+                          $("#id").prop("disabled",true);limpiarCampos();
+>>>>>>> branch 'master' of https://github.com/juanvera7/publicaciones.git
                         });
                       </script>
     </body>
