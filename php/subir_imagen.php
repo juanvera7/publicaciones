@@ -23,4 +23,18 @@ while ($ficheros=  readdir($directorio))
         echo "<img src=".$url.">";
     }
 }
+
+/*mostrar solo la imagen que cargaste
+{
+    echo "error";
+}
+
+           echo "<img src="imagenes/.".$_FILES['fichero']['name'].">";
+           
+        
+*/
 ?>
+
+
+
+
